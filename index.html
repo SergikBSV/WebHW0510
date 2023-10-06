@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="./js/main.js"></script>
+  </head>
+  <body>
+    <main class="main">
+      <h2>Калькулятор</h2>
+      <p>Введите первое число</p>
+      <input id="num1" />
+      <p>Введите второе число</p>
+      <input id="num2" />
+      <p>Выберите действие</p>
+      <div id="operator">
+        <button id="plus" onclick="op='+'">+</button>
+        <button id="minus" onclick="op='-'">-</button>
+        <button id="multi" onclick="op='*'">x</button>
+        <button id="division" onclick="op='/'">:</button>
+      </div>
+      
+      <button onclick="calc()">Посчитать</button>
+      <h3>Результат:</h3>
+      <p id="result"></p>
+    </main>
+  </body>
+</html>
